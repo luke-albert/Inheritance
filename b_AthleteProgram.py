@@ -1,14 +1,14 @@
 import b_AthleteClass as ac
 
-generic_athlete = ac.Athlete(6,220,0.2)
+generic_athlete = ac.Athlete(6, 220, 0.2)
 
-quarterback = ac.Football_Player(6.2,250,0.15,'quarterback','offense')
+quarterback = ac.Football_Player(6.2, 250, 0.15, 'quarterback', 'offense')
+# instance of the super class
 
+print("The height for the generic athlete is:", generic_athlete.get_ht())
 
-print("The height for the generic athlete is:",generic_athlete.get_ht())
+# print("The team of the generic athlete is:", generic_athlete.get_team())
 
-#print("The team of the generic athlete is:",generic_athlete.get_team())
+print("The weight for the football player is:", quarterback.get_wt())
 
-print("The weight for the football player is:",quarterback.get_wt())
-
-print("The position of the football player is:",quarterback.get_position())
+print("The position of the football player is:", quarterback.get_position())
