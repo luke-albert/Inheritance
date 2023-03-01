@@ -20,7 +20,7 @@ class Person:
         print('Telephone Number:', self.__phone)
 
 
-class Customer(Person):
+class Customer(Person):  # subclass is created
 
     def __init__(self, name, address, phone, cust_number, on_list):
         Person.__init__(self, name, address, phone)
