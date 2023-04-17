@@ -2,6 +2,7 @@
 
 import f_animals as animals
 
+
 def main():
     # Create an Mammal object, a Dog object, and
     # a Cat object.
@@ -25,12 +26,14 @@ def main():
 # as an argument, and calls its show_species
 # and make_sound methods.
 
+
 def show_mammal_info(creature):
-    if isinstance(creature, animals.Mammal):
+    if isinstance(creature, animals.Mammal):  # creature is the object
         creature.show_species()
         creature.make_sound()
     else:
         print('That is not a Mammal!')
+
 
 # Call the main function.
 main()
